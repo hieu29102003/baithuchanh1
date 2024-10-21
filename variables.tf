@@ -41,5 +41,5 @@ variable "instance_type" {
 variable "allowed_ip" {
   description = "IP address allowed to SSH into Public EC2 instance"
   type        = string
-  default     = "192.168.47.160/24"
+  default     = "192.168.47.0/24"
 }
