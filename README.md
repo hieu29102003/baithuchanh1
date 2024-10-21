@@ -43,7 +43,8 @@ resource "aws_instance" "example" {
 Khởi tạo Terraform
 Chạy lệnh sau để khởi tạo Terraform:
 
-Sao chépterraform init
+terraform init
+
 Kiểm tra kế hoạch triển khai
 Trước khi triển khai, bạn có thể kiểm tra kế hoạch bằng lệnh:
 
