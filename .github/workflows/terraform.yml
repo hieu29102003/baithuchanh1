@@ -1,12 +1,9 @@
 name: Terraform CI/CD with Checkov
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-    paths:
-      - '/'  # Chỉ chạy nếu có thay đổi trong thư mục terraform
-
 jobs:
   terraform-checkov:
     runs-on: ubuntu-latest
